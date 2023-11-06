@@ -1,0 +1,25 @@
+@media (max-width: 720px){
+    #nav>li{
+        display: block;
+        position: relative;
+        background-color: rgb(240, 110, 40);
+        margin-right: 65px;
+        height: 100%;
+    }
+    #header{
+        height: 48px;
+        overflow: hidden;
+    }
+    #nav .subnav{
+        width: 156px;
+    }
+    #container #overview .ov-content,
+    #container #overview .ov-content1,
+    #container #overview .ov-content2,
+    .content1, .content2{
+        padding: 0 3%;
+    }
+    #header #home-menu{
+        display: block;
+    }
+}
